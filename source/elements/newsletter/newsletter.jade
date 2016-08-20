@@ -1,0 +1,12 @@
+section.newsletter
+	.newsletter_inner
+		.newsletter_work
+			h2=newsletter.work.header
+			button=newsletter.work.button
+		.newsletter_subscribe
+			h2=newsletter.subscribe.header
+			p=newsletter.subscribe.paragraph
+			form(action="#")
+				input.newsletter_subscribe-email-input(type="email" placeholder=newsletter.subscribe.inputplaceholder)
+				input(type="submit", value=newsletter.subscribe.button)
+

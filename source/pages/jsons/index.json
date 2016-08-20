@@ -11,5 +11,18 @@
 	, "footer": {
 		"copy": "Created by akhouad 2016. All Rights Reserved"
 	}
+	, "newsletter": {
+		"work": {
+			"header": "YOU THINK WE'RE COOL ? LET'S WORK TOGETHER"
+			, "button": "get in touch"
+		}
+		, "subscribe": {
+			"header": "STAY INFORMED WITH OUR NEWSLETTER"
+			, "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			, "button": "send"
+			, "inputplaceholder": "our email"
+		}
+	}
+
 
 }

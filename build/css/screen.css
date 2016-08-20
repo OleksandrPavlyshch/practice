@@ -1510,6 +1510,14 @@ a { color: #999999; }
 
 a:hover { color: #7beec7; }
 
+h1, h2, h3, h4, h5, h6 { font-family: montserrat, Arial, sans-serif; font-weight: 700; color: #60606e; }
+
+h1 { font-size: 36px; line-height: 48px; text-transform: uppercase; }
+
+h2 { font-size: 30px; font-weight: 700; line-height: 48px; text-transform: uppercase; }
+
+h3 { font-size: 18px; font-weight: 700; line-height: 48px; text-transform: uppercase; }
+
 body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; background-color: #fdfdfd; color: #999999; }
 
 .clearfix { *zoom: 1; }
@@ -1520,13 +1528,13 @@ body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1
 
 a, a:before, .button, button, button:before, input[type="button"], input[type="submit"] { transition: border-color .1s ease-in, color .1s ease-in, background-color .1s ease-in; }
 
-.footer_inner, .header_inner { overflow: hidden; max-width: 1170px; margin: 0 auto; }
+.footer_inner, .header_inner, .newsletter_inner { overflow: hidden; max-width: 1170px; margin: 0 auto; }
 
 .footer_right { margin-left: 16.66667%; }
 
 .footer_right { width: 33.33333%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
 
-.footer_left { width: 50%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
+.footer_left, .newsletter_work, .newsletter_subscribe { width: 50%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
 
 .hide { display: none !important; }
 
@@ -1586,6 +1594,10 @@ header .logo:hover { color: #7beec7; }
 
 .header_menu a:hover:before { top: 0; opacity: 1; }
 
+.hero { height: 850px; }
+
+.newsletter { background-color: #7beec7; padding: 50px 0; }
+
 .socials { display: block; }
 
 .socials a { display: inline-block; color: #60606e; font-size: 18px; }
@@ -1598,7 +1610,7 @@ header .logo:hover { color: #7beec7; }
  *{ -webkit-text-size-adjust: none; } }
 
 @media screen and (max-width: 1170px){
- .footer_right, .footer_left{ width: auto; float: none; }
+ .footer_right, .footer_left, .newsletter_work, .newsletter_subscribe{ width: auto; float: none; }
  .footer_right{ margin-left: 0; }
  .toggle-menu-button{ display: inline-block; }
  .footer{ text-align: center; padding: 25px 0; }
