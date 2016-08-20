@@ -1,0 +1,11 @@
+footer.footer
+	.footer_inner
+		.footer_left
+			nav.footer_menu
+				ul
+					each val in menu
+						li
+							a(href="#")=val
+		.footer_right
+			p.footer_copy=footer.copy
+			include ../socials/socials

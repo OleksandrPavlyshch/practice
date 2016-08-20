@@ -8,5 +8,8 @@
 		, "BLOG"
 		, "CONTACT US"
 	]
+	, "footer": {
+		"copy": "Created by akhouad 2016. All Rights Reserved"
+	}
 
 }

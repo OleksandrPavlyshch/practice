@@ -1560,6 +1560,14 @@ header .logo:hover { color: #7beec7; }
 
 .header_menu a:hover:before { top: 0; opacity: 1; }
 
+.socials { display: block; }
+
+.socials a { display: inline-block; color: #60606e; font-size: 18px; }
+
+.socials a:hover { color: #7beec7; }
+
+.socials a + a { margin-left: 17px; }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
 
