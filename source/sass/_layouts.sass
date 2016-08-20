@@ -24,7 +24,7 @@ input[type="submit"]
 %row
 	overflow: hidden
 	max-width: $tablet+px
-	margin: 0 auto
+	margin: 0 auto+max
 
 
 =grid($columns-amount: 12, $columns-padding: 5, $column-name: "col-")
@@ -51,8 +51,8 @@ input[type="submit"]
 	%block
 		width: auto
 		float: none
-		padding-left: 0
-		padding-right: 0
+		// padding-left: 0
+		// padding-right: 0
 	%offset
 		margin-left: 0
 	@for $i from 1 through 12
@@ -64,3 +64,8 @@ input[type="submit"]
 
 .hide
 	display: none !important
+
+main
+	min-height: 100%
+	padding-bottom: $footer-placeholder
+	margin-bottom: -$footer-placeholder
