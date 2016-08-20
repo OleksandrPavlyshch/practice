@@ -24,7 +24,7 @@ html { box-sizing: border-box; }
 
 *, *:before, *:after { box-sizing: inherit; }
 
-body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.25; min-width: 320px; min-height: 320px; }
+body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; }
 
 .clearfix { *zoom: 1; }
 
@@ -35,6 +35,12 @@ body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.25; min-w
 a, a:before, .button, button, button:before, input[type="button"], input[type="submit"] { transition: border-color .1s ease-in, color .1s ease-in, background-color .1s ease-in; }
 
 .hide { display: none !important; }
+
+@font-face { font-family: "arabicT"; src: url("../fonts/ArabicTypesetting.eot"); src: url("../fonts/ArabicTypesetting.eot?#iefix") format("embedded-opentype"), url("../fonts/ArabicTypesetting.woff2") format("woff2"), url("../fonts/ArabicTypesetting.woff") format("woff"), url("../fonts/ArabicTypesetting.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "opensans"; src: url("../fonts/opensans-regular.eot"); src: url("../fonts/opensans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular.woff2") format("woff2"), url("../fonts/opensans-regular.woff") format("woff"), url("../fonts/opensans-regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "montserrat"; src: url("../fonts/montserrat-bold.eot"); src: url("../fonts/montserrat-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold.woff2") format("woff2"), url("../fonts/montserrat-bold.woff") format("woff"), url("../fonts/montserrat-bold.ttf") format("truetype"); font-weight: 700; font-style: normal; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
