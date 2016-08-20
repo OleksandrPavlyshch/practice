@@ -1,26 +1,36 @@
 'use strict';
 
 (function () {
-	var body = document.querySelector('body')
+
+	var $body = $('body')
+		, menuButtonClass = '.toggle-menu-button'
+		, menuShowClass = 'is-menu-show'
 		, scrollClass = "is-scroll";
+
 	
 	var scrollWatch = function(){
 
 		if(window.pageYOffset > window.innerHeight/5){
-			body.classList.add(scrollClass);
+			$body.addClass(scrollClass);
 		}
 
-		window.onscroll = function() {
+		window.addEventListener('scroll', function () {
 			var scrolled = window.pageYOffset || document.documentElement.scrollTop;
 			if(scrolled > window.innerHeight/5){
-				body.classList.add(scrollClass);
+				$body.addClass(scrollClass);
 				return;
 			}
-			body.classList.remove(scrollClass);
-		};
+			$body.removeClass(scrollClass);
+		});
+
 	};
 
-//init
+	//init
 	scrollWatch();
+
+
+	$body.on('click', menuButtonClass,  function() {
+		$body.toggleClass(menuShowClass);
+	});
 	
 })();
