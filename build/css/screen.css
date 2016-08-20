@@ -1520,7 +1520,7 @@ body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1
 
 a, a:before, .button, button, button:before, input[type="button"], input[type="submit"] { transition: border-color .1s ease-in, color .1s ease-in, background-color .1s ease-in; }
 
-.footer_inner, .header_inner { overflow: hidden; max-width: 1170px; margin: 0 automax; }
+.footer_inner, .header_inner { overflow: hidden; max-width: 1170px; margin: 0 auto; }
 
 .footer_right { margin-left: 16.66667%; }
 
