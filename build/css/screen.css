@@ -52,17 +52,17 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .toggle-menu-button:before, .toggle-menu-button:after { border-top: 1px solid #60606e; transition: all .3s ease; }
 
-.toggle-menu-button:before { width: 15px; top: 6px; transform-origin: right top; }
+.toggle-menu-button:before { width: 15px; top: 6px; -ms-transform-origin: right top; transform-origin: right top; }
 
-.toggle-menu-button:after { width: 23px; top: 13px; transform-origin: left top; }
+.toggle-menu-button:after { width: 23px; top: 13px; -ms-transform-origin: left top; transform-origin: left top; }
 
 .is-menu-show .toggle-menu-button { border-top-color: #7beec7; border-top-width: 2px; }
 
 .is-menu-show .toggle-menu-button:before, .is-menu-show .toggle-menu-button:after { border-top-color: #7beec7; width: 50%; top: 0; border-top-width: 2px; }
 
-.is-menu-show .toggle-menu-button:before { transform: rotate(-45deg); }
+.is-menu-show .toggle-menu-button:before { -ms-transform: rotate(-45deg); transform: rotate(-45deg); }
 
-.is-menu-show .toggle-menu-button:after { transform: rotate(45deg); left: auto; right: 0; }
+.is-menu-show .toggle-menu-button:after { -ms-transform: rotate(45deg); transform: rotate(45deg); left: auto; right: 0; }
 
 header { position: fixed; width: 100%; left: 0; top: 0; line-height: 20px; transition: all .4s ease; padding: 40px 0; }
 
@@ -98,7 +98,7 @@ header .logo:hover { color: #7beec7; }
 
  .is-menu-show header { height: 100%; background-color: #fdfdfd; }
 
- .header_menu { float: none; display: block; overflow-y: auto; }
+ .header_menu { float: none; display: block; }
 
  .is-menu-show .header_menu { padding-top: 30px; }
 
