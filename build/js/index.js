@@ -1,0 +1,1 @@
+"use strict";!function(){var n=document.querySelector("body"),o="is-scroll",e=function(){window.pageYOffset>window.innerHeight/5&&n.classList.add(o),window.onscroll=function(){var e=window.pageYOffset||document.documentElement.scrollTop;return e>window.innerHeight/5?void n.classList.add(o):void n.classList.remove(o)}};e()}();

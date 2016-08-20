@@ -30,7 +30,7 @@ html { box-sizing: border-box; }
 
 @font-face { font-family: "montserrat"; src: url("../fonts/montserrat-bold.eot"); src: url("../fonts/montserrat-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold.woff2") format("woff2"), url("../fonts/montserrat-bold.woff") format("woff"), url("../fonts/montserrat-bold.ttf") format("truetype"); font-weight: 700; font-style: normal; }
 
-body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; background-color: #fdfdfd; }
+body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; background-color: #fdfdfd; color: #60606e; }
 
 .clearfix { *zoom: 1; }
 
@@ -44,9 +44,27 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .hide { display: none !important; }
 
-header { position: fixed; width: 100%; left: 0; top: 0; height: 100px; }
+header { position: fixed; width: 100%; left: 0; top: 0; line-height: 20px; transition: all .4s ease; padding: 40px 0; }
+
+.is-scroll header { padding: 20px 0; box-shadow: 0 1px 2px #777777; }
+
+header .logo { text-decoration: none; color: #60606e; font-family: montserrat; font-size: 18px; font-weight: 700; text-transform: uppercase; transition: all .4s ease; line-height: inherit; }
+
+header .logo:hover { color: #7beec7; }
 
 .header_inner { padding: 0 15px; }
+
+.header_menu { float: right; }
+
+.header_menu li { float: left; }
+
+.header_menu li + li { padding-left: 15px; }
+
+.header_menu a { font-family: montserrat; font-weight: 700; text-transform: uppercase; text-decoration: none; font-size: 12px; color: #60606e; display: inline-block; position: relative; line-height: inherit; transition: all .3s ease; }
+
+.header_menu a:before { content: ''; display: block; position: absolute; top: 50%; width: 50%; z-index: -1; height: 1px; background-color: #60606e; opacity: 0; transition: all .3s ease; }
+
+.header_menu a:hover:before { top: 0; opacity: 1; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
