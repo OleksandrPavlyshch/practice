@@ -61,6 +61,20 @@ input[type="submit"]
 +max-screen($tablet)
 	+grid($column-name: "col-md", $columns-padding: 15px)
 
++max-screen($mobile)
+	%block
+		width: auto
+		float: none
+		// padding-left: 0
+		// padding-right: 0
+	%offset
+		margin-left: 0
+	@for $i from 1 through 12
+		%col-md-#{$i}
+			@extend %block
+		%col-md-offset-#{$i}
+			@extend %offset
+
 .hide
 	display: none !important
 
