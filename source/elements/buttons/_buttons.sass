@@ -36,3 +36,34 @@
 			transform: rotate(45deg)
 			left: auto
 			right: 0
+
+.button
+	background-color: $turquoise-blue
+	display: inline-block
+	height: 50px
+	line-height: 50px
+	border: 1px solid $turquoise-blue
+	font-family: montserrat, Arial, sans-serif
+	color: $white
+	font-size: 14px
+	font-weight: 700
+	line-height: 48px
+	text-transform: uppercase
+	min-width: 135px
+	padding: 0 20px
+	cursor: pointer
+	transition: all .4s ease
+	vertical-align: middle
+	&:hover
+		color: $turquoise-blue
+		background-color: $white
+
+.button-white
+	@extend .button
+	color: $turquoise-blue
+	background-color: $white
+	border-color: $white
+	padding: 0 30px
+	&:hover
+		color: $white
+		background-color: $turquoise-blue
