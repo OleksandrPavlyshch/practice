@@ -1532,6 +1532,10 @@ input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placehol
 
 input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="tel"]::placeholder { font-family: montserrat, Arial, sans-serif; text-transform: uppercase; color: #cdcdcd; }
 
+.marked-header, .history_text h2 { position: relative; z-index: 1; }
+
+.marked-header:after, .history_text h2:after { content: ''; display: inline-block; position: absolute; z-index: -1; left: 0; top: 50%; height: 21px; width: 69px; background-color: #7beec7; }
+
 body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; background-color: #fdfdfd; color: #999999; }
 
 .clearfix { *zoom: 1; }

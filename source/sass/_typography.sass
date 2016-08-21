@@ -60,3 +60,17 @@ input[type="tel"]
 		text-align: center
 		margin-bottom: $col-padding
 		display: block
+
+.marked-header
+	position: relative
+	z-index: 1
+	&:after
+		content: ''
+		display: inline-block
+		position: absolute
+		z-index: -1
+		left: 0
+		top: 50%
+		height: 21px
+		width: 69px
+		background-color: $turquoise-blue
