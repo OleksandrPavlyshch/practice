@@ -43,8 +43,6 @@ input[type="submit"]
 
 +grid($column-name: "col", $columns-padding: $col-padding)
 
-// +max-screen($tablet)
-	// +grid($column-name: "col-md", $columns-padding: 0)
 
 +max-screen($tablet)
 	%block
@@ -60,6 +58,8 @@ input[type="submit"]
 		%col-offset-#{$i}
 			@extend %offset
 
++max-screen($tablet)
+	+grid($column-name: "col-md", $columns-padding: 15px)
 
 .hide
 	display: none !important

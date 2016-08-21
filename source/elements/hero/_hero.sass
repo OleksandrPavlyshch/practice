@@ -1,2 +1,32 @@
 .hero
 	height: 850px
+	background: url(../img/hero-bg.jpg) 100% 0 no-repeat
+	background-size: cover
+	text-align: center
+	&_inner
+		@extend %row
+		&-content
+			@extend %col-6, %col-offset-3, %col-md-10, %col-md-offset-1
+			margin-top: 225px
+			p
+				color: $comet
+			&-pre
+				height: 30px
+				background-color: $turquoise-blue
+				margin: 0
+				vertical-align: middle
+				display: inline-block
+				min-width: 98px
+				padding: 0 15px
+				color: $comet
+				font-family: montserrat, Arial, sans-serif
+				font-size: 18px
+				font-weight: 700
+				line-height: 30px
+				text-transform: uppercase
+			&-header
+				border: 10px solid $comet
+				margin-bottom: 28px
+				line-height: 80px
+				+max-screen($mobile)
+					line-height: 1.25

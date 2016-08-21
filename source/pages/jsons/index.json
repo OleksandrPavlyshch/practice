@@ -8,6 +8,8 @@
 		, "BLOG"
 		, "CONTACT US"
 	]
+	, "lorem": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
 	, "footer": {
 		"copy": "Created by akhouad 2016. All Rights Reserved"
 	}
@@ -22,6 +24,10 @@
 			, "button": "send"
 			, "inputplaceholder": "your email"
 		}
+	}
+	, "hero": {
+		"header": "creative agency"
+		, "pre": "we’re"
 	}
 
 
