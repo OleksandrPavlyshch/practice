@@ -1532,9 +1532,9 @@ input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placehol
 
 input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="tel"]::placeholder { font-family: montserrat, Arial, sans-serif; text-transform: uppercase; color: #cdcdcd; }
 
-.marked-header, .history_text h2 { position: relative; z-index: 1; }
+.marked-header { position: relative; z-index: 1; }
 
-.marked-header:after, .history_text h2:after { content: ''; display: inline-block; position: absolute; z-index: -1; left: 0; top: 50%; height: 21px; width: 69px; background-color: #7beec7; }
+.marked-header:after { content: ''; display: inline-block; position: absolute; z-index: -1; left: 0; top: 50%; height: 21px; width: 69px; background-color: #7beec7; }
 
 body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; background-color: #fdfdfd; color: #999999; }
 
@@ -1602,7 +1602,7 @@ main { min-height: 100%; padding-bottom: 139px; margin-bottom: -139px; }
 
 .footer_right { text-align: right; }
 
-header { position: fixed; width: 100%; left: 0; top: 0; line-height: 20px; transition: all .4s ease; padding: 40px 0; }
+header { position: fixed; width: 100%; left: 0; top: 0; line-height: 20px; transition: all .4s ease; padding: 40px 0; z-index: 10; }
 
 .is-scroll header { padding: 20px 0; box-shadow: 0 1px 2px #777777; background-color: #fdfdfd; }
 
