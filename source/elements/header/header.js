@@ -10,13 +10,13 @@
 	
 	var scrollWatch = function(){
 
-		if(window.pageYOffset > window.innerHeight/5){
+		if(window.pageYOffset > window.innerHeight/6){
 			$body.addClass(scrollClass);
 		}
 
 		window.addEventListener('scroll', function () {
 			var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-			if(scrolled > window.innerHeight/5){
+			if(scrolled > window.innerHeight/6){
 				$body.addClass(scrollClass);
 				return;
 			}
