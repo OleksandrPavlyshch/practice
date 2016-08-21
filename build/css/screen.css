@@ -1622,6 +1622,8 @@ header .logo:hover { color: #7beec7; }
 
 .newsletter_work-header { color: #ffffff; margin-bottom: 20px; }
 
+.newsletter_subscribe { margin-top: 7px; }
+
 .newsletter_subscribe-inner { background-color: #ffffff; padding: 20px 24px; }
 
 .newsletter_subscribe-header { font-size: 24px; line-height: 36px; margin-bottom: 15px; -webkit-hyphens: manual; -ms-hyphens: manual; hyphens: manual; }
