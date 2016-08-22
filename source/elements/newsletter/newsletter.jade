@@ -6,7 +6,7 @@ section.newsletter
 		.newsletter_subscribe
 			.newsletter_subscribe-inner
 				h2.newsletter_subscribe-header=newsletter.subscribe.header
-				p=newsletter.subscribe.paragraph
+				p.newsletter_subscribe-text=newsletter.subscribe.paragraph
 				form.newsletter_subscribe-form(action="#")
 					input.newsletter_subscribe-email-input(type="email" placeholder=newsletter.subscribe.inputplaceholder title=newsletter.subscribe.inputplaceholder)
 					input.button(type="submit", value=newsletter.subscribe.button)
