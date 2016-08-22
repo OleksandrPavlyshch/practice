@@ -1528,7 +1528,7 @@ h1 { font-size: 36px; line-height: 48px; text-transform: uppercase; }
 
 h2 { font-size: 30px; font-weight: 700; line-height: 48px; text-transform: uppercase; }
 
-h3 { font-size: 18px; font-weight: 700; line-height: 48px; text-transform: uppercase; }
+h3 { font-size: 18px; font-weight: 700; line-height: 36px; text-transform: uppercase; }
 
 input { vertical-align: middle; }
 
@@ -1544,7 +1544,7 @@ input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="t
 
 .marked-header { position: relative; z-index: 1; display: inline-block; margin-bottom: 10px; }
 
-.marked-header:after { content: ''; display: inline-block; position: absolute; z-index: -1; left: 0; top: 50%; height: 21px; width: 69px; background-color: #7beec7; }
+.marked-header:after { content: ''; display: inline-block; position: absolute; z-index: -1; left: 0; top: 46%; height: 21px; width: 69px; background-color: #7beec7; }
 
 body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; background-color: #fdfdfd; color: #999999; }
 
@@ -1586,9 +1586,11 @@ a, a:before, button, button:before, input[type="button"], input[type="submit"] {
 
 main { min-height: 100%; padding-bottom: 139px; margin-bottom: -139px; }
 
-.base-section, .portfolio, .why-us { margin: 150px 0; }
+.base-section, .portfolio, .why-us { margin: 139px 0; }
 
-.center-header { text-align: center; margin-bottom: 100px; }
+.center-header { text-align: center; margin-bottom: 87px; }
+
+.center-header p { font-size: 14px; margin-top: 0; }
 
 .toggle-menu-button { display: none; width: 30px; height: 15px; cursor: pointer; background-color: transparent; border-top: 1px solid #60606e; transition: all .3s ease; }
 
@@ -1706,13 +1708,17 @@ header .logo:hover { color: #7beec7; }
 
 .socials a + a { margin-left: 17px; }
 
-.why-us_text-block { display: inline-block; width: 50%; padding: 15px 26px 26px 0; float: left; border: solid 3px transparent; transition: all .4s ease; }
+.why-us_text-block { display: inline-block; width: 50%; padding: 9px 26px 39px 0; float: left; border: solid 3px transparent; transition: all .4s ease; }
 
 .why-us_text-block:hover { background-color: #f2f2f2; border-color: #e5e5e5; }
 
-.why-us_text-block-icon { font-size: 36px; color: #60606e; }
+.why-us_text-block-icon { font-size: 36px; color: #60606e; margin-left: -4px; }
 
-.why-us_text-block-list-item { text-transfo-mdrm: uppercase; }
+.why-us_text-block-header { margin-left: -4px; margin-bottom: 0.7em; }
+
+.why-us_text-block-list { margin-left: -4px; }
+
+.why-us_text-block-list-item { text-transform: uppercase; }
 
 .why-us_text-block-list-item-link { text-decoration: none; }
 
