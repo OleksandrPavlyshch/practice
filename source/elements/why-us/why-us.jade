@@ -1,6 +1,27 @@
+mixin why-us-block(headerIconClass, blockHeader, blockTextList)
+	.why-us_text-block
+		span.why-us_text-block-icon(class="#{headerIconClass}")
+		h3.why-us_text-block-header=blockHeader
+		ul.why-us_text-block-list
+			each val in blockTextList
+				li.why-us_text-block-list-item
+					a.why-us_text-block-list-item-link(href="#")=val
+
+
+
 section.why-us
 	.why-us_inner
 		.center-header
 			h2.marked-header=why_us.header
 			p=lorem
+	.why-us_inner
+		.why-us_image
+			+insert-image('why-img.jpg', 'why us')
+		.why-us_text
+			+why-us-block('ion-ios-infinite-outline', why_us.block.headers[0], why_us.block.text[0])
+			+why-us-block('ion-ios-shuffle', why_us.block.headers[1], why_us.block.text[1])
+			+why-us-block('ion-ios-cart-outline', why_us.block.headers[2], why_us.block.text[2])
+			+why-us-block('ion-ios-settings', why_us.block.headers[3], why_us.block.text[1])
+			
+
 

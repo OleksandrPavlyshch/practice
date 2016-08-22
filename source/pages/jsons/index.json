@@ -36,6 +36,34 @@
 	}
 	, "why_us": {
 		"header": "why choose us"
+		, "block": {
+			"headers": [
+				"our portfolio"
+				, "DESIGN & DEVELOPMENT"
+				, "e-commerce"
+				, "CUSTOMIZABLE DESIGN"
+			]
+			, "text":[
+				[
+					"Branding"
+					, "Design & Copywriting"
+					, "Concept development"
+					, "User Experience"
+				]
+				, [
+					"Information architecture"
+					, "Interface design"
+					, "Product Design"
+					, "Integrated ad Companies"
+				]
+				, [
+					"Prototyping"
+					, "Technical Consulting"
+					, "Web applications"
+					, "Quality testing"
+				]
+			]
+		}
 	}
 	, "portfolio": {
 		"header": "our portfolio"
