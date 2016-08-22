@@ -1660,17 +1660,17 @@ header .logo:hover { color: #7beec7; }
 
 .hero_inner-content-pre { height: 30px; background-color: #7beec7; margin: 0; vertical-align: middle; display: inline-block; min-width: 98px; padding: 0 15px; color: #60606e; font-family: montserrat, Arial, sans-serif; font-size: 18px; font-weight: 700; line-height: 30px; text-transform: uppercase; }
 
-.hero_inner-content-header { border: 10px solid #60606e; margin-bottom: 28px; line-height: 80px; }
+.hero_inner-content-header { border: 10px solid #60606e; margin-bottom: 24px; line-height: 80px; font-size: 48px; }
 
 .history { margin-top: -300px; margin-bottom: 100px; }
 
 .history_image img { vertical-align: middle; width: 100%; }
 
-.history_text h2 { line-height: 1; margin: 30px 0 5px; }
+.history_text h2 { line-height: 1; margin: 27px 0 0; }
 
-.history_text p { margin-bottom: 41px; }
+.history_text p { margin-bottom: 46px; line-height: 1.9; word-spacing: -1px; }
 
-.history_text .button, .history_text .button-white { float: right; }
+.history_text .button, .history_text .button-white { float: right; min-width: 165px; }
 
 .newsletter { background-color: #7beec7; padding: 45px 0; }
 
