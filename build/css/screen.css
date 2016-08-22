@@ -1544,7 +1544,7 @@ input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="t
 
 .marked-header { position: relative; z-index: 1; display: inline-block; margin-bottom: 10px; }
 
-.marked-header:after { content: ''; display: inline-block; position: absolute; z-index: -1; left: 0; top: 1em; margin-top: -0.54em; height: 21px; width: 69px; background-color: #7beec7; }
+.marked-header:after { content: ''; display: inline-block; position: absolute; z-index: -1; left: 0; top: 46%; height: 21px; width: 69px; background-color: #7beec7; }
 
 body { font-family: opensans, Arial, sans-serif; font-size: 14px; line-height: 1.25; min-width: 320px; min-height: 320px; background-color: #fdfdfd; color: #999999; }
 
@@ -1702,7 +1702,7 @@ header .logo:hover { color: #7beec7; }
 
 .portfolio_container-item { float: left; margin-bottom: 30px; display: block; }
 
-.portfolio_container-item img { vertical-align: middle; }
+.portfolio_container-item img { vertical-align: middle; width: 100%; }
 
 .socials { display: block; }
 
@@ -1774,6 +1774,8 @@ header .logo:hover { color: #7beec7; }
  input[type="text"], input[type="email"], input[type="tel"]{ width: 100%; min-width: auto; text-align: center; margin-bottom: 15px; display: block; }
  .portfolio_filter, .footer_right, .portfolio_container-item, .history_image, .why-us_image, .hero_inner-content, .history_text, .newsletter_work, .newsletter_subscribe, .footer_left, .why-us_text, .center-header, .portfolio_container{ width: auto; float: none; }
  .footer_right, .history_text, .center-header, .hero_inner-content{ margin-left: 0; }
+ .base-section, .portfolio, .why-us{ margin: 70px 0; }
+ .center-header{ margin-bottom: 50px; }
  .footer_menu li{ display: block; }
  .footer_menu li + li{ margin-left: 0; margin-top: 15px; }
  .footer_menu li + li:before{ display: none; }
@@ -1785,7 +1787,7 @@ header .logo:hover { color: #7beec7; }
  .portfolio_filter{ text-align: center; margin-bottom: 30px; }
  .portfolio_filter-list li + li{ margin-top: 15px; }
  .portfolio_container-item{ right: 15px; padding: 0; }
- .portfolio_container-item img{ width: 100%; max-width: 100%; }
+ .portfolio_container-item img{ max-width: 100%; }
  .why-us_text-block{ width: 100%; text-align: center; } }
 
 @media screen and (orientation: landscape) and (max-width: 760px){
