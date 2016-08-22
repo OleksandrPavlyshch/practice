@@ -15,6 +15,14 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.1.0"
+    "jquery": "^3.1.0",
+    "isotope": "^3.0.1"
+  },
+  "overrides":{
+    "isotope": {
+      "main": "dist/isotope.pkgd.min.js",
+      "dependencies": null
+    }
   }
+
 }

@@ -67,6 +67,17 @@
 	}
 	, "portfolio": {
 		"header": "our portfolio"
+		, "filter": {
+			"header": "choose category"
+			, "items": [
+				["All", "*"]
+				, ["webdesign", "webdesign"]
+				, ["graphic design", "graphic"]
+				, ["fashion", "fashion"]
+				, ["logo design", "logo"]
+				, ["advertising", "advertising"]
+			]
+		}
 	}
 
 }

@@ -2,3 +2,18 @@
 	@extend .base-section
 	&_inner
 		@extend %row
+	&_filter
+		@extend %col-3, %col-md-3
+		&-list
+		
+
+	&_container
+		@extend %col-9, %col-md-9
+		padding: 0
+		&-item
+			@extend %col-4, %col-md-4
+			float: left
+			margin-bottom: $col-padding*2
+			img
+				vertical-align: middle
+				
