@@ -3,7 +3,7 @@
 	&_inner
 		@extend %row
 	&_text
-		@extend %col-md-7, %col-md-reverse-7
+		@extend %col-7, %col-reverse-7, %col-md-7, %col-md-reverse-7
 		+portrait-max-screen($tablet)
 			width: 100%
 		&-block
@@ -34,7 +34,7 @@
 				&-item + &-item
 					margin-top: 12px
 	&_image
-		@extend %col-md-5, %col-md-reverse-5
+		@extend %col-5, %col-reverse-5, %col-md-5, %col-md-reverse-5
 		+portrait-max-screen($tablet)
 			width: 100%
 		img
