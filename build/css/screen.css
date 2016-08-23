@@ -1706,7 +1706,7 @@ header .logo:hover { color: #7beec7; }
 
 .socials { display: block; }
 
-.socials a { display: inline-block; color: #60606e; font-size: 18px; }
+.socials a { display: inline-block; color: #60606e; font-size: 18px; text-decoration: none; text-align: center; }
 
 .socials a:hover { color: #7beec7; }
 
