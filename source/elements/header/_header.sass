@@ -40,7 +40,7 @@ header
 			display: block
 			.is-menu-show &
 				padding-top: $col-padding*2
-		li
+		&-list-item
 			float: left
 			transition: all .4s ease
 			+max-screen($tablet)
@@ -62,41 +62,40 @@ header
 				.is-menu-show &
 					padding: $col-padding/2
 
-		li+li
-			padding-left: $col-padding
-		a
-			font-family: montserrat
-			font-weight: 700
-			text-transform: uppercase
-			text-decoration: none
-			font-size: 12px
-			color: $comet
-			display: inline-block
-			position: relative
-			line-height: inherit
-			transition: all .3s ease
-			+max-screen($tablet)
-				font-size: 18px
-				&:active
-					color: $turquoise-blue
-			+landscape-max-screen($mobile)
-				font-size: 16px
-
-			&:before
-				content: ''
-				display: block
-				position: absolute
-				top: 50%
-				width: 50%
-				z-index: -1
-				height: 1px
-				background-color: $comet
-				opacity: 0
+			&+&
+				padding-left: $col-padding
+			&-link
+				font-family: montserrat
+				font-weight: 700
+				text-transform: uppercase
+				text-decoration: none
+				font-size: 12px
+				color: $comet
+				display: inline-block
+				position: relative
+				line-height: inherit
 				transition: all .3s ease
 				+max-screen($tablet)
-					display: none
-			&:hover:before
-				top: 0
-				opacity: 1
+					font-size: 18px
+					&:active
+						color: $turquoise-blue
+				+landscape-max-screen($mobile)
+					font-size: 16px
+				&:before
+					content: ''
+					display: block
+					position: absolute
+					top: 50%
+					width: 50%
+					z-index: -1
+					height: 1px
+					background-color: $comet
+					opacity: 0
+					transition: all .3s ease
+					+max-screen($tablet)
+						display: none
+				&:hover:before
+					top: 0
+					opacity: 1
 
 
