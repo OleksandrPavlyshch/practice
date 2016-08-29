@@ -1,0 +1,22 @@
+section.benefits
+	+center-header(benefits.header, lorem)
+
+	.benefits_items-wrap
+		+benefit-item("ion-iphone", benefits.items_headers[0], benefits.item_text)
+		+benefit-item("ion-ios-infinite-outline", benefits.items_headers[1], benefits.item_text)
+		+benefit-item("ion-social-wordpress-outline", benefits.items_headers[2], benefits.item_text)
+		+benefit-item("ion-ios-cart-outline", benefits.items_headers[3], benefits.item_text)
+		+benefit-item("ion-ios-settings", benefits.items_headers[4], benefits.item_text)
+		+benefit-item("ion-settings", benefits.items_headers[5], benefits.item_text)
+
+
+mixin benefit-item(iconClass, header, text)
+	.benefit
+		if header
+			h3.benefit_header
+				if iconClass
+					.benefit_header-icon(class=iconClass)
+				| #{header}
+		if text
+			p.benefit_text=text
+
