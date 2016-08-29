@@ -1,10 +1,7 @@
 section.portfolio
-	.portfolio_inner
-		.center-header
-			h2.marked-header=portfolio.header
-			p=lorem
-	.portfolio_inner
+	+center-header(portfolio.header, lorem)
 
+	.portfolio_inner
 		.portfolio_filter
 			h2.portfolio_filter-header=portfolio.filter.header
 			ul.portfolio_filter-list
