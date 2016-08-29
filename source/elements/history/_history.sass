@@ -1,10 +1,10 @@
 .history
 	margin-top: -300px
 	margin-bottom: 100px
+	@extend %row
 	+max-screen($mobile)
 		margin-top: -280px
 	&_inner
-		@extend %row
 	&_image
 		@extend %col-5, %col-md-5
 		+max-screen($mobile)
