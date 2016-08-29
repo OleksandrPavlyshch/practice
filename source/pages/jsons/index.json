@@ -79,5 +79,23 @@
 			]
 		}
 	}
+	, "top": {
+		"about": {
+			"header": "about us"
+			, "title": "home / about"
+		}
+		, "blog": {
+			"header": "blog posts"
+			, "title": "home / blog"
+		}
+		, "contacts": {
+			"header": "contact us"
+			, "title": "home / contact"
+		}
+		, "services": {
+			"header": "our services"
+			, "title": "home / services"
+		}
+	}
 
 }

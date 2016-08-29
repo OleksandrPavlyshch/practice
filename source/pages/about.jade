@@ -1,4 +1,5 @@
 extends ./layout/default_layout.jade
+include ../elements/top/top
 
 block title_name
 	title=logo
@@ -12,6 +13,7 @@ block title_name
 block main_content
 	include ../elements/header/header
 	main
+		+top()
 
 		include ../elements/newsletter/newsletter
 
