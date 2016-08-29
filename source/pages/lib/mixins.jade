@@ -1,0 +1,11 @@
+include ../../elements/top/top
+include ../../elements/menu/menu
+
+mixin insert-image(name, alt, className)
+	-alt = alt || 'image'
+	-imageClass = className || ''
+	img(alt="#{alt}" src="img/#{name}" class=imageClass)
+
+- var getRandomNumber = function (min, max) {
+- 		return Math.round(Math.random() * (max - min) + min);
+- };
