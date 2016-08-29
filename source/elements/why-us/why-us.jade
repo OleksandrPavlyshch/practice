@@ -10,10 +10,7 @@ mixin why-us-block(headerIconClass, blockHeader, blockTextList)
 
 
 section.why-us
-	.why-us_inner
-		.center-header
-			h2.marked-header=why_us.header
-			p=lorem
+	+center-header(why_us.header, lorem)
 	.why-us_inner
 		.why-us_image
 			+insert-image('why-img.jpg', 'why us')
