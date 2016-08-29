@@ -1712,15 +1712,19 @@ header .logo:hover { color: #7beec7; }
 
 .socials a + a { margin-left: 19px; }
 
+.top { background: #ffffff url("../img/top.jpg") 50% 50% no-repeat; background-size: cover; height: 500px; overflow: hidden; position: relative; text-align: center; color: #60606e; text-transform: uppercase; font-family: montserrat, Arial, sans-serif; font-weight: 700; }
+
+.top_inner { padding: 0 15px; position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; max-height: 105px; }
+
+.top_header { font-size: 36px; line-height: 1; margin-bottom: 22px; }
+
+.top_title { margin: 0; font-size: 14px; }
+
 .why-us_text-block { display: inline-block; width: 50%; padding: 9px 26px 39px 0; float: left; border: solid 3px transparent; transition: all .4s ease; }
 
-.why-us_text-block:hover { background-color: #f2f2f2; border-color: #e5e5e5; }
+.why-us_text-block-icon { font-size: 36px; color: #60606e; }
 
-.why-us_text-block-icon { font-size: 36px; color: #60606e; margin-left: -4px; }
-
-.why-us_text-block-header { margin-left: -4px; margin-bottom: 0.7em; }
-
-.why-us_text-block-list { margin-left: -4px; }
+.why-us_text-block-header { margin-bottom: 0.7em; }
 
 .why-us_text-block-list-item { text-transform: uppercase; }
 
@@ -1762,7 +1766,7 @@ header .logo:hover { color: #7beec7; }
  .history_text .button, .history_text .button-white{ float: none; display: block; margin: 0 auto; width: 50%; }
  .newsletter_work, .newsletter_subscribe{ text-align: center; }
  .newsletter_work{ margin-bottom: 30px; }
- .why-us_text-block:hover{ background-color: transparent; border-color: transparent; } }
+ .why-us_text-block{ text-align: center; } }
 
 @media screen and (orientation: portrait) and (max-width: 1170px){
  .history_text h2{ margin-top: 0; }
@@ -1788,7 +1792,7 @@ header .logo:hover { color: #7beec7; }
  .portfolio_filter-list li + li{ margin-top: 15px; }
  .portfolio_container-item{ right: 15px; padding: 0; }
  .portfolio_container-item img{ max-width: 100%; }
- .why-us_text-block{ width: 100%; text-align: center; } }
+ .why-us_text-block{ width: 100%; } }
 
 @media screen and (orientation: landscape) and (max-width: 760px){
  .is-menu-show .header_menu-list-item{ padding: 7.5px; }
