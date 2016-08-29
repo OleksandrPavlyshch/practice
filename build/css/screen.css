@@ -1674,6 +1674,18 @@ header .logo:hover { color: #7beec7; }
 
 .history_text .button, .history_text .button-white { float: right; min-width: 165px; }
 
+.icon-list-block { padding: 9px 26px 39px 0; transition: all .4s ease; }
+
+.icon-list-block_icon { font-size: 36px; color: #60606e; }
+
+.icon-list-block_header { margin-bottom: 0.7em; }
+
+.icon-list-block_list-item { text-transform: uppercase; }
+
+.icon-list-block_list-item-link { text-decoration: none; }
+
+.icon-list-block_list-item + .icon-list-block_list-item { margin-top: 12px; }
+
 .newsletter { background-color: #7beec7; padding: 41px 0 51px; }
 
 .newsletter_work-header { color: #ffffff; margin-bottom: 14px; }
@@ -1720,17 +1732,7 @@ header .logo:hover { color: #7beec7; }
 
 .top_title { margin: 0; font-size: 14px; }
 
-.why-us_text-block { display: inline-block; width: 50%; padding: 9px 26px 39px 0; float: left; border: solid 3px transparent; transition: all .4s ease; }
-
-.why-us_text-block-icon { font-size: 36px; color: #60606e; }
-
-.why-us_text-block-header { margin-bottom: 0.7em; }
-
-.why-us_text-block-list-item { text-transform: uppercase; }
-
-.why-us_text-block-list-item-link { text-decoration: none; }
-
-.why-us_text-block-list-item + .why-us_text-block-list-item { margin-top: 12px; }
+.why-us_text-block { display: inline-block; width: 50%; float: left; }
 
 .why-us_image img { width: 100%; vertical-align: middle; }
 
