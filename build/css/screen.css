@@ -1768,6 +1768,22 @@ header .logo:hover { color: #7beec7; }
 
 .team-read .button, .team-read .button-white { float: right; }
 
+.testimonials_item { text-align: center; }
+
+.testimonials_item-image { max-width: 100%; max-height: 100%; border-radius: 50%; }
+
+.testimonials_item-image-wrap { display: block; width: 82px; height: 82px; margin: 0 auto; margin-bottom: 22.5px; }
+
+.testimonials_item-text { color: #60606e; line-height: 2; }
+
+.testimonials_item-person-name { display: inline-block; color: #ffffff; text-transform: uppercase; line-height: 2; background-color: #7beec7; font-family: montserrat, Arial, sans-serif; font-weight: 700; padding: 0 10px; }
+
+.testimonials_slider-paginator { margin-top: 30px; text-align: center; }
+
+.testimonials_slider-paginator-item { display: inline-block; width: 14px; transition: all .4s ease; background-color: #60606e; height: 5px; margin: 0 2px; cursor: pointer; }
+
+.testimonials_slider-paginator-item.active, .testimonials_slider-paginator-item:hover { background-color: #7beec7; width: 31px; }
+
 .why-us_text-block { display: inline-block; width: 50%; float: left; }
 
 .why-us_image img { width: 100%; vertical-align: middle; }
@@ -1777,8 +1793,8 @@ header .logo:hover { color: #7beec7; }
 
 @media screen and (max-width: 1170px){
  .portfolio_filter, .team-person, .benefit, .clients_item, .footer_right, .portfolio_container-item, .history_image, .why-us_image, .about-texts_text, .clients, .hero_inner-content, .history_text, .newsletter_work, .newsletter_subscribe, .testimonials, .footer_left, .why-us_text, .center-header_inner, .portfolio_container, .team-read-text{ width: auto; float: none; }
- .footer_right, .history_text, .hero_inner-content{ margin-left: 0; }
- .hero_inner-content{ margin-left: 8.33333%; }
+ .footer_right, .history_text, .hero_inner-content, .testimonials{ margin-left: 0; }
+ .hero_inner-content, .testimonials{ margin-left: 8.33333%; }
  .portfolio_filter{ width: 25%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
  .portfolio_container-item{ width: 33.33333%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
  .history_image, .why-us_image{ width: 41.66667%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
@@ -1787,7 +1803,7 @@ header .logo:hover { color: #7beec7; }
  .why-us_text{ width: 58.33333%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
  .why-us_text{ float: right; }
  .portfolio_container{ width: 75%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
- .hero_inner-content{ width: 83.33333%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
+ .hero_inner-content, .testimonials{ width: 83.33333%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
  .toggle-menu-button{ display: inline-block; }
  .footer{ text-align: center; padding: 25px 0; }
  .footer_left{ margin-bottom: 15px; }
@@ -1807,6 +1823,7 @@ header .logo:hover { color: #7beec7; }
  .team-read{ text-align: center; }
  .team-read-text{ margin-bottom: 30px; }
  .team-read .button, .team-read .button-white{ float: none; }
+ .testimonials{ margin-bottom: 45px; }
  .why-us_text-block{ text-align: center; } }
 
 @media screen and (orientation: portrait) and (max-width: 1170px){
@@ -1818,7 +1835,7 @@ header .logo:hover { color: #7beec7; }
 @media screen and (max-width: 760px){
  input[type="text"], input[type="email"], input[type="tel"]{ width: 100%; min-width: auto; text-align: center; margin-bottom: 15px; display: block; }
  .portfolio_filter, .team-person, .benefit, .clients_item, .footer_right, .portfolio_container-item, .history_image, .why-us_image, .about-texts_text, .clients, .hero_inner-content, .history_text, .newsletter_work, .newsletter_subscribe, .testimonials, .footer_left, .why-us_text, .center-header_inner, .portfolio_container, .team-read-text{ width: auto; float: none; }
- .footer_right, .history_text, .hero_inner-content{ margin-left: 0; }
+ .footer_right, .history_text, .hero_inner-content, .testimonials{ margin-left: 0; }
  .base-section, .about-texts, .benefits, .portfolio, .team, .why-us{ margin-top: 70px; margin-bottom: 70px; }
  .footer_menu-list-item{ display: block; }
  .footer_menu-list-item + .footer_menu-list-item{ margin-left: 0; margin-top: 15px; }

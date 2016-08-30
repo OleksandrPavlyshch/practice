@@ -1,1 +1,18 @@
 section.testimonials
+	.testimonials_slider.owl-carousel
+		+testimonials_item("testimonials_item-img", testimonials.text, testimonials.name)
+		+testimonials_item("testimonials_item-img", testimonials.text, testimonials.name)
+		+testimonials_item("testimonials_item-img", testimonials.text, testimonials.name)
+		+testimonials_item("testimonials_item-img", testimonials.text, testimonials.name)
+
+
+mixin testimonials_item(image, text, nameLabelText)
+	.testimonials_item
+		if image
+			.testimonials_item-image-wrap
+				+insert-image(image+'.jpg', image, "testimonials_item-image")
+		if text
+			p.testimonials_item-text=text
+		if nameLabelText
+			p.testimonials_item-person-name=nameLabelText
+
