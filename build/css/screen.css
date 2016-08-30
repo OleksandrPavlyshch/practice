@@ -1570,7 +1570,7 @@ a, a:before, button, button:before, input[type="button"], input[type="submit"] {
 
 .center-header_inner { width: 66.66667%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
 
-.portfolio_container { width: 75%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
+.portfolio_container, .team-read-text { width: 75%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
 
 .hide { display: none !important; }
 
@@ -1738,7 +1738,15 @@ header .logo:hover { color: #7beec7; }
 
 .team-person { margin-bottom: 30px; }
 
+.team-person-wraper { overflow: hidden; }
+
 .team-person-img { width: 100%; vertical-align: middle; }
+
+.team-read { margin: 0 15px; overflow: hidden; padding: 50px 30px; background-color: rgba(96, 96, 110, 0.1); }
+
+.team-read-text { color: #60606e; font-size: 18px; font-style: italic; margin: 12px 0 0; }
+
+.team-read .button, .team-read .button-white { float: right; }
 
 .why-us_text-block { display: inline-block; width: 50%; float: left; }
 
@@ -1748,7 +1756,7 @@ header .logo:hover { color: #7beec7; }
  *{ -webkit-text-size-adjust: none; } }
 
 @media screen and (max-width: 1170px){
- .portfolio_filter, .team-person, .benefit, .footer_right, .portfolio_container-item, .history_image, .why-us_image, .about-texts_text, .hero_inner-content, .history_text, .newsletter_work, .newsletter_subscribe, .footer_left, .why-us_text, .center-header_inner, .portfolio_container{ width: auto; float: none; }
+ .portfolio_filter, .team-person, .benefit, .footer_right, .portfolio_container-item, .history_image, .why-us_image, .about-texts_text, .hero_inner-content, .history_text, .newsletter_work, .newsletter_subscribe, .footer_left, .why-us_text, .center-header_inner, .portfolio_container, .team-read-text{ width: auto; float: none; }
  .footer_right, .history_text, .hero_inner-content{ margin-left: 0; }
  .hero_inner-content{ margin-left: 8.33333%; }
  .portfolio_filter{ width: 25%; float: left; box-sizing: border-box; display: block; padding-left: 15px; padding-right: 15px; min-height: 1px; }
@@ -1776,6 +1784,9 @@ header .logo:hover { color: #7beec7; }
  .history_text .button, .history_text .button-white{ float: none; display: block; margin: 0 auto; width: 50%; }
  .newsletter_work, .newsletter_subscribe{ text-align: center; }
  .newsletter_work{ margin-bottom: 30px; }
+ .team-read{ text-align: center; }
+ .team-read-text{ margin-bottom: 30px; }
+ .team-read .button, .team-read .button-white{ float: none; }
  .why-us_text-block{ text-align: center; } }
 
 @media screen and (orientation: portrait) and (max-width: 1170px){
@@ -1786,7 +1797,7 @@ header .logo:hover { color: #7beec7; }
 
 @media screen and (max-width: 760px){
  input[type="text"], input[type="email"], input[type="tel"]{ width: 100%; min-width: auto; text-align: center; margin-bottom: 15px; display: block; }
- .portfolio_filter, .team-person, .benefit, .footer_right, .portfolio_container-item, .history_image, .why-us_image, .about-texts_text, .hero_inner-content, .history_text, .newsletter_work, .newsletter_subscribe, .footer_left, .why-us_text, .center-header_inner, .portfolio_container{ width: auto; float: none; }
+ .portfolio_filter, .team-person, .benefit, .footer_right, .portfolio_container-item, .history_image, .why-us_image, .about-texts_text, .hero_inner-content, .history_text, .newsletter_work, .newsletter_subscribe, .footer_left, .why-us_text, .center-header_inner, .portfolio_container, .team-read-text{ width: auto; float: none; }
  .footer_right, .history_text, .hero_inner-content{ margin-left: 0; }
  .base-section, .about-texts, .benefits, .portfolio, .team, .why-us{ margin-top: 70px; margin-bottom: 70px; }
  .footer_menu-list-item{ display: block; }

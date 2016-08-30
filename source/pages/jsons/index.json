@@ -122,6 +122,10 @@
 	}
 	, "team": {
 		"header": "THE DREAM TEAM"
+		, "read": {
+			"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod"
+			, "button": "read more"
+		}
 	}
 
 
