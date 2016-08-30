@@ -77,6 +77,9 @@ input[type="submit"]
 		%col-md-offset-#{$i}
 			@extend %offset
 
++max-screen($mobile)
+	+grid($column-name: "col-sm", $columns-padding: 10px)
+
 .hide
 	display: none !important
 
