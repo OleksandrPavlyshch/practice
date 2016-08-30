@@ -1782,7 +1782,9 @@ header .logo:hover { color: #7beec7; }
 
 .testimonials_slider-paginator-item { display: inline-block; width: 14px; transition: all .4s ease; background-color: #60606e; height: 5px; margin: 0 2px; cursor: pointer; }
 
-.testimonials_slider-paginator-item.active, .testimonials_slider-paginator-item:hover { background-color: #7beec7; width: 31px; }
+.testimonials_slider-paginator-item.active, .testimonials_slider-paginator-item:hover { background-color: #7beec7; }
+
+.testimonials_slider-paginator-item.active { width: 31px; }
 
 .why-us_text-block { display: inline-block; width: 50%; float: left; }
 
