@@ -1,0 +1,16 @@
+mixin top(topHeaderText, topTitleText)
+	- var headerText = topHeaderText || ""
+	- var titleText = topTitleText || ""
+	section.top
+		.top_inner
+			h1.top_header=headerText
+			p.top_title=titleText
+
+mixin center-header(headerText, titleText, customClass)
+	-var customClass = customClass || ""
+	.center-header(class=customClass)
+		.center-header_inner
+			if headerText
+				h2.center-header_header=headerText
+			if titleText
+				p.center-header_title=titleText

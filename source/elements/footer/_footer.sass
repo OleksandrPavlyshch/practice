@@ -1,0 +1,48 @@
+.footer
+	padding: 47px 0 50px
+	+max-screen($tablet)
+		text-align: center
+		padding: 25px 0
+	&_inner
+		@extend %row
+		// padding: 0 $col-padding
+	&_left
+		@extend %col-7
+		+max-screen($tablet)
+			margin-bottom: $col-padding
+	&_copy
+		text-transform: uppercase
+		line-height: 1
+		margin-bottom: 25px
+		font-size: 14px
+		margin-top: 0
+		+max-screen($tablet)
+			margin-bottom: $col-padding
+	&_menu
+		&-list-item
+			display: inline-block
+			line-height: 1
+			text-transform: uppercase
+			+max-screen($mobile)
+				display: block
+			& + &
+				margin-left: 18px
+				+max-screen($mobile)
+					margin-left: 0
+					margin-top: $col-padding
+					&:before
+						display: none
+				&:before
+					content: '-'
+					display: inline-block
+					margin-right: 14px
+			&-link
+				text-decoration: none
+
+
+	&_right
+		@extend %col-4
+		@extend %col-offset-1
+		text-align: right
+		+max-screen($tablet)
+			text-align: center

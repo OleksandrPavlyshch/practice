@@ -1,0 +1,12 @@
+section.about-texts
+	+about-text(about_texts.headers[0], about_texts.titles[0], about_texts.text)
+	+about-text(about_texts.headers[1], about_texts.titles[1], about_texts.text)
+
+mixin about-text(header, title, text)
+	.about-texts_text
+		if header
+			h2.about-texts_text-header=header
+		if title
+			p.about-texts_text-title=title
+		if text
+			p.about-texts_text-text=text

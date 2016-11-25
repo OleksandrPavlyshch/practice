@@ -1,0 +1,17 @@
+section.clients
+	.clients_inner
+		+clients_item("client-img-1")
+		+clients_item("client-img-2")
+		+clients_item("client-img-3")
+		+clients_item("client-img-4")
+		+clients_item("client-img-5")
+		+clients_item("client-img-6")
+
+
+
+mixin clients_item(image)
+	.clients_item
+		a(href="#").clients_item-link
+			if image
+				//- span.clients_item-image
+				+insert-image(image+'.jpg', image, "clients_item-image")

@@ -1,0 +1,16 @@
+section.portfolio
+	+center-header(portfolio.header, lorem)
+
+	.portfolio_filter
+		h2.portfolio_filter-header=portfolio.filter.header
+		ul.portfolio_filter-list
+			each val, index in portfolio.filter.items
+				li
+					a(href="#" data-filter=val[1] !== '*' ? '.'+val[1] : val[1] class=index === 0 ? "active" : "")=val[0]
+
+	.portfolio_container
+		-for (var i = 0; i < 9; ++i)
+			-var randomCategory = getRandomNumber(1, 5);
+			a.portfolio_container-item(href="#" class=portfolio.filter.items[randomCategory][1])
+				+insert-image('portfolio-img'+(i+1)+'.jpg')
+

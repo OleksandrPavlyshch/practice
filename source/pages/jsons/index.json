@@ -1,3 +1,136 @@
 {
+	"logo": "akad."
+	, "menu": [
+		"HOME"
+		, "ABOUT US"
+		, "SERVICES"
+		, "PORTFOLIO"
+		, "BLOG"
+		, "CONTACT US"
+	]
+	, "lorem": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+	, "footer": {
+		"copy": "Created by akhouad 2016. All Rights Reserved"
+	}
+	, "newsletter": {
+		"work": {
+			"header": "YOU THINK WE'RE COOL ? LET'S WORK TOGETHER"
+			, "button": "get in touch"
+		}
+		, "subscribe": {
+			"header": "STAY INFORMED WITH OUR NEWSLETTER"
+			, "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			, "button": "send"
+			, "inputplaceholder": "your email"
+		}
+	}
+	, "hero": {
+		"header": "creative agency"
+		, "pre": "we’re"
+	}
+	, "history": {
+		"header": "HISTORY OF AGENCY"
+		, "text": "Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore."
+		, "button": "read more"
+	}
+	, "why_us": {
+		"header": "why choose us"
+		, "block": {
+			"headers": [
+				"unlimited options"
+				, "DESIGN & DEVELOPMENT"
+				, "e-commerce"
+				, "CUSTOMIZABLE DESIGN"
+			]
+			, "text":[
+				[
+					"Branding"
+					, "Design & Copywriting"
+					, "Concept development"
+					, "User Experience"
+				]
+				, [
+					"Information architecture"
+					, "Interface design"
+					, "Product Design"
+					, "Integrated ad Companies"
+				]
+				, [
+					"Prototyping"
+					, "Technical Consulting"
+					, "Web applications"
+					, "Quality testing"
+				]
+			]
+		}
+	}
+	, "portfolio": {
+		"header": "our portfolio"
+		, "filter": {
+			"header": "choose category"
+			, "items": [
+				["All", "*"]
+				, ["webdesign", "webdesign"]
+				, ["graphic design", "graphic"]
+				, ["fashion", "fashion"]
+				, ["logo design", "logo"]
+				, ["advertising", "advertising"]
+			]
+		}
+	}
+	, "top": {
+		"about": {
+			"header": "about us"
+			, "title": "home / about"
+		}
+		, "blog": {
+			"header": "blog posts"
+			, "title": "home / blog"
+		}
+		, "contacts": {
+			"header": "contact us"
+			, "title": "home / contact"
+		}
+		, "services": {
+			"header": "our services"
+			, "title": "home / services"
+		}
+	}
+	, "about_texts": {
+		"headers": [
+			"about us"
+			, "What We Do"
+		]
+		, "titles": [
+			"We are awesome"
+			, "Creative & Digital"
+		]
+		, "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+	}
+	, "benefits": {
+		"header": "some benefits"
+		, "items_headers": [
+			"FULLY RESPONSIVE"
+			, "UNLIMITED OPTIONS"
+			, "WORDPRESS"
+			, "e-commerce"
+			, "CUSTOMIZABLE DESIGN"
+			, "SUPPORT"
+		]
+		, "item_text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eleifend suscipit enim, eu commodo neque molestie vitae."
+	}
+	, "team": {
+		"header": "THE DREAM TEAM"
+		, "read": {
+			"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod"
+			, "button": "read more"
+		}
+	}
+	, "testimonials": {
+		"text": "Quisque iaculis lorem vestibulum eros vehicula, non congue elit dictum. Donec mollis aliquet lorem, eu porttitor sapien semper in. Duis ac erat luctus, gravida lectus sit amet, consectetur orci. Suspendisse libero mauris."
+		, "name": "john doe"
+	}
+
 
 }

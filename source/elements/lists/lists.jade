@@ -1,0 +1,13 @@
+mixin icon-list-block(headerIconClass, blockHeader, blockTextList, customClass)
+	-var customClass = customClass || ""
+	.icon-list-block(class=customClass)
+		if headerIconClass
+			span.icon-list-block_icon(class="#{headerIconClass}")
+		if blockHeader
+			h3.icon-list-block_header=blockHeader
+		if blockTextList
+			ul.icon-list-block_list
+				each val in blockTextList
+					li.icon-list-block_list-item
+						a.icon-list-block_list-item-link(href="#")=val
+

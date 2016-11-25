@@ -1,0 +1,22 @@
+.why-us
+	@extend .base-section
+	&_text
+		@extend %col-7, %col-reverse-7, %col-md-7, %col-md-reverse-7
+		+portrait-max-screen($tablet)
+			width: 100%
+		&-block
+			display: inline-block
+			width: 50%
+			float: left
+			+max-screen($tablet)
+				text-align: center
+			+max-screen($mobile)
+				width: 100%
+	&_image
+		@extend %col-5, %col-reverse-5, %col-md-5, %col-md-reverse-5
+		+portrait-max-screen($tablet)
+			width: 100%
+		img
+			width: 100%
+			vertical-align: middle
+			

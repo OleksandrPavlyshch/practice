@@ -1,0 +1,47 @@
+.testimonials
+	@extend %col-6, %col-md-10, %col-md-offset-1
+	+max-screen($tablet)
+		margin-bottom: $col-padding*3
+	&_item
+		text-align: center
+		&-image
+			max-width: 100%
+			max-height: 100%
+			border-radius: 50%
+			&-wrap
+				display: block
+				width: 82px
+				height: 82px
+				margin: 0 auto
+				margin-bottom: $col-padding*1.5
+		&-text
+			color: $comet
+			line-height: 2
+			+max-screen($mobile)
+				text-align: justify
+		&-person-name
+			display: inline-block
+			color: $white
+			text-transform: uppercase
+			line-height: 2
+			background-color: $turquoise-blue
+			font-family: montserrat, Arial, sans-serif
+			font-weight: 700
+			padding: 0 10px
+	&_slider
+		&-paginator
+			margin-top: $col-padding*2
+			text-align: center
+			&-item
+				display: inline-block
+				width: 14px
+				transition: all .4s ease
+				background-color: $comet
+				height: 5px
+				margin: 0 2px
+				cursor: pointer
+				&.active,
+				&:hover
+					background-color: $turquoise-blue
+				&.active
+					width: 31px

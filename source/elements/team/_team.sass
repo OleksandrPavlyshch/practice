@@ -1,0 +1,31 @@
+.team
+	@extend .base-section
+	&-person
+		@extend %col-3, %col-md-6, %col-sm-6
+		margin-bottom: $col-padding*2
+		+max-screen($mobile)
+			margin-bottom: 20px
+		&-wraper
+			overflow: hidden
+		&-img
+			width: 100%
+			vertical-align: middle
+	&-read
+		margin: 0 $col-padding
+		overflow: hidden
+		padding: 50px 30px
+		background-color: rgba($comet, .1)
+		+max-screen($tablet)
+			text-align: center
+		&-text
+			@extend %col-9
+			color: $comet
+			font-size: 18px
+			font-style: italic
+			margin: 12px 0 0
+			+max-screen($tablet)
+				margin-bottom: $col-padding*2
+		.button
+			float: right
+			+max-screen($tablet)
+				float: none

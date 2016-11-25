@@ -1,6 +1,6 @@
 {
-  "name": "it-challenge_warmup_round",
-  "description": "it-challenge_warmup_round",
+  "name": "gulp-tamplate-master",
+  "description": "gulp-tamplate-master",
   "main": "index.js",
   "authors": [],
   "license": "ISC",
@@ -15,5 +15,14 @@
     "tests"
   ],
   "dependencies": {
+    "jquery": "^3.1.0",
+    "isotope": "^3.0.1",
+    "owl.carousel": "^2.1.6"
+  },
+  "overrides": {
+    "isotope": {
+      "main": "dist/isotope.pkgd.min.js",
+      "dependencies": null
+    }
   }
 }

@@ -1,0 +1,40 @@
+.history
+	margin-top: -300px
+	margin-bottom: 100px
+	@extend %row
+	+max-screen($mobile)
+		margin-top: -280px
+	&_inner
+	&_image
+		@extend %col-5, %col-md-5
+		+max-screen($mobile)
+			padding: 0
+			margin-bottom: $col-padding
+		img
+			vertical-align: middle
+			width: 100%
+	&_text
+		@extend %col-6, %col-offset-1, %col-md-6
+		h2
+			// @extend .marked-header
+			line-height: 1
+			margin: 27px 0 0
+			+portrait-max-screen($tablet)
+				margin-top: 0
+		p
+			margin-bottom: 46px
+			line-height: 1.9
+			font-size: 16px
+			word-spacing: -1px
+			+portrait-max-screen($tablet)
+				margin-bottom: 30px
+		.button
+			float: right
+			min-width: 165px
+			+max-screen($tablet)
+				float: none
+				display: block
+				margin: 0 auto
+				width: 50%
+			+max-screen($mobile)
+				width: 100%

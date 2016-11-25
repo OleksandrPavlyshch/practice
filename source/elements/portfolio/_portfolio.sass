@@ -1,0 +1,53 @@
+.portfolio
+	@extend .base-section
+	&_filter
+		@extend %col-3, %col-md-3
+		+max-screen($mobile)
+			text-align: center
+			margin-bottom: $col-padding*2
+		&-header
+			margin-top: -11px
+			margin-bottom: 36px
+		&-list
+			li+li
+				margin-top: 25px
+				+max-screen($mobile)
+					margin-top: $col-padding
+			a
+				font-family: montserrat, Arial, sans-serif
+				font-weight: 700
+				text-transform: uppercase
+				color: $comet
+				display: inline-block
+				line-height: 21px
+				text-decoration: none
+				padding: 0 20px
+				transition: all .2s ease-in-out
+				&:hover
+					color: $turquoise-blue
+				&.active
+					color: $white
+					padding: 0 15px
+					background-color: $turquoise-blue
+
+
+	&_container
+		@extend %col-9, %col-md-9
+		padding: 0
+		// +max-screen($mobile)
+		// 	padding: 0
+		&-item
+			@extend %col-4, %col-md-4
+			float: left
+			margin-bottom: $col-padding*2
+			display: block
+			+max-screen($mobile)
+				// width: 100%
+				right: 15px
+				padding: 0
+
+			img
+				vertical-align: middle
+				width: 100%
+				+max-screen($mobile)
+					max-width: 100%

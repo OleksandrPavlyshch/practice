@@ -1,0 +1,22 @@
+.benefits
+	@extend .base-section
+
+.benefit
+	@extend %col-4, %col-md-6
+	margin-bottom: 40px
+	&_header
+		padding-left: 59px
+		position: relative
+		overflow: hidden
+		&-icon
+			float: left
+			margin-left: -59px
+			display: inline-block
+			font-size: 30px
+			line-height: 40px
+			width: 40px
+			text-align: center
+			color: $white
+			background-color: $turquoise-blue
+	&_text
+		line-height: 30px
